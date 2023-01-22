@@ -1,17 +1,16 @@
 import React from "react";
-import Popbox from "./popbox";
+import Notes from "./Components/notes";
 // import AddNote from "./addNote";
 
 // const RefreshContext = createContext();
 
 const App = () => {
   return (
-    // <RefreshContext.Provider>
     <div>
+      <Notes />
       {/* <AddNote /> */}
-      <Popbox />
+      {/* <Popbox /> */}
     </div>
-    // </RefreshContext.Provider>
   );
 };
 
